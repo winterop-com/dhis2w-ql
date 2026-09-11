@@ -1,5 +1,16 @@
 # dhis2w-ql
 
+The d2ql query and transform language for DHIS2 data, with the d2path expression core. The engine
+has no DHIS2 runtime dependency and ships on PyPI as `dhis2w-ql`; its last release from the `dhis2w`
+workspace is 1.17.0.
+
+This repository holds the package with its full history and, under `parked/`, the `d2w query`
+plugin, the REPL, docs, tests and examples that drove it from inside `dhis2w`.
+
+---
+
+# dhis2w-ql
+
 `d2ql` — a pipeline query and transform language with an embedded expression language, `d2path`.
 Pure engine, no DHIS2 required: it queries any JSON-shaped data — lists of dicts, Pydantic models,
 local `.json`/`.ndjson` files — with a pushdown seam for backends that can answer parts of a query
